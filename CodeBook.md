@@ -9,8 +9,11 @@ This code book summarizes the resulting data fields in `tidy.txt`.
 
 ## Measurements
 
-* `tBodyAccMeanX`
-* `tBodyAccMeanY`
-* `tBodyAccMeanZ`
-* `tBodyAccStdX`
-* `tBodyAccStdY`
+* `domain` 
+* "acceleration signal"
+* "sensor"
+* "jerk signal"
+* "magnitude"
+* "axis"               
+* "mean"
+* "std"   
