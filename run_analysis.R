@@ -101,4 +101,4 @@ levels(tidy_data$axis) <- c(NA, "X", "Y", "Z")
 
 #Write the table "tidy_data.txt"
 setwd("/Users/ashleysharp/Dropbox/R/Coursera/gettingcleaning/")
-write.table(tidy_data, "tidy_data.txt", col.names = TRUE)
+write.table(tidy_data, "tidy_data.txt", col.names = TRUE, row.names = FALSE)
