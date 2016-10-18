@@ -101,6 +101,6 @@ levels(tidy_data$`jerk signal`) <- c(NA, "jerk")
 levels(tidy_data$magnitude) <- c(NA, "magnitude")
 levels(tidy_data$axis) <- c(NA, "X", "Y", "Z")
 
-#Write table "tidy_data.txt"
+#Write the table "tidy_data.txt"
 setwd("/Users/ashleysharp/Dropbox/R/Coursera/gettingcleaning/")
 write.table(tidy_data, "tidy_data.txt", col.names = TRUE)
