@@ -18,7 +18,7 @@ This code book summarizes the resulting data fields in `tidy.txt`.
 
 * `jerk signal` - the body linear acceleration and angular velocity were in time to obtain Jerk signals
 
-* `magnitude` - the magnitude of these three-dimensional signals calculated using the Euclidean norm
+* `magnitude` - the magnitude of the three-dimensional signals calculated using the Euclidean norm
 
 * `axis` - X/Y/Z
 
