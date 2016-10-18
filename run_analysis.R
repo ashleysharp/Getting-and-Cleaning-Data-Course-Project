@@ -1,3 +1,5 @@
+library(tidyverse)
+
 #Read the data into R
 x_test <- read.table("test/X_test.txt", header=FALSE)
 y_test <- read.table("test/y_test.txt", header=FALSE)
@@ -95,6 +97,9 @@ tidy_data$axis <- as.factor(tidy_data$axis)
 levels(tidy_data$`jerk signal`) <- c(NA, "jerk")
 levels(tidy_data$magnitude) <- c(NA, "magnitude")
 levels(tidy_data$axis) <- c(NA, "X", "Y", "Z")
+
+#remove unwanted objects leaving only tidy_data
+rm(list = ls()[-14])
 
 #Write the table "tidy_data.txt"
 write.table(tidy_data, "tidy_data.txt", col.names = TRUE, row.names = FALSE)
