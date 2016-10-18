@@ -1,6 +1,3 @@
-#Set working directory
-setwd("/Users/ashleysharp/Dropbox/R/Coursera/gettingcleaning/UCI HAR Dataset")
-
 #Read the data into R
 x_test <- read.table("test/X_test.txt", header=FALSE)
 y_test <- read.table("test/y_test.txt", header=FALSE)
@@ -100,5 +97,4 @@ levels(tidy_data$magnitude) <- c(NA, "magnitude")
 levels(tidy_data$axis) <- c(NA, "X", "Y", "Z")
 
 #Write the table "tidy_data.txt"
-setwd("/Users/ashleysharp/Dropbox/R/Coursera/gettingcleaning/")
 write.table(tidy_data, "tidy_data.txt", col.names = TRUE, row.names = FALSE)
