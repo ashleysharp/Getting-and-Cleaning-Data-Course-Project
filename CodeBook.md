@@ -12,7 +12,7 @@ This code book summarizes the resulting data fields in `tidy.txt`.
 
 * `domain` - time/frequency domain (time domain signals were captured at a constant rate of 50 Hz, Fast Fourier Transform (FFT) was applied to some of these signals to produce frequency domain signals 
 
-* `acceleration signal` - body/gravity acceleration signals separated using a low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+* `acceleration signal` - body/gravity acceleration signals separated using a low pass Butterworth filter with a corner frequency of 0.3 Hz
 
 * `sensor` - accelerometer/gyroscope
 
